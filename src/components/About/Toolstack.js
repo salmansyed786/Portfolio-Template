@@ -5,6 +5,7 @@ import {
   SiEclipseide
 } from "react-icons/si";
 import { BsWindows, BsUnity, BsGithub } from "react-icons/bs";
+import { SiDocker } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -23,6 +24,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <BsGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
       </Col>
     </Row>
   );

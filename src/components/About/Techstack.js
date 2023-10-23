@@ -7,7 +7,8 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import { TbBrandCSharp } from "react-icons/tb";
+import { TbBrandCSharp, TbHtml } from "react-icons/tb";
+import { TiCss3 } from "react-icons/ti"
 
 function Techstack() {
   return (
@@ -26,6 +27,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbHtml />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TiCss3 />
       </Col>
     </Row>
   );
